@@ -71,6 +71,3 @@ class DobleList(Generic[T]):
             self.__tail = self.__tail.prev
             self.__tail.next = None
             self.__size -= 1
-
-
-
